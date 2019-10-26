@@ -41,7 +41,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WindowsFormsApp3.Properties.Resources.Check;
+            this.pictureBox1.Image = global::EduktSoftFrontEnd.Properties.Resources.Check;
             this.pictureBox1.Location = new System.Drawing.Point(317, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(141, 129);
