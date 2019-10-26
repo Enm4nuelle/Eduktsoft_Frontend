@@ -61,6 +61,12 @@
     <Compile Include="usuario\frmLogin.designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="vendedoor\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendedoor\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmUsuario.resx">
       <DependentUpon>frmUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="usuario\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendedoor\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -111,7 +120,9 @@
   <ItemGroup>
     <None Include="Resources\ojitoSinRaya.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\450_1000.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Check.png" />
   </ItemGroup>
